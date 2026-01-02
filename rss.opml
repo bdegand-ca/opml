@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="1.0">
   <head>
-    <title>Veille Cybersécurité & Tech</title>
+    <title>Veille ULTRA-TECH Cybersécurité & Tech FR</title>
   </head>
   <body>
 
     <!-- ===================== -->
-    <!-- CYBERSÉCURITÉ ALERTES -->
+    <!-- ALERTES OFFICIELLES FR -->
     <!-- ===================== -->
-    <outline text="Cybersécurité - Alertes & CVE">
+    <outline text="🇫🇷 Sécurité - Sources Officielles FR">
+      <outline text="CERT-FR Alertes" type="rss"
+        xmlUrl="https://www.cert.ssi.gouv.fr/alerte/feed/"
+        htmlUrl="https://www.cert.ssi.gouv.fr/" />
+      <outline text="CERT-FR Avis" type="rss"
+        xmlUrl="https://www.cert.ssi.gouv.fr/avis/feed/"
+        htmlUrl="https://www.cert.ssi.gouv.fr/" />
+      <outline text="ANSSI Actualités" type="rss"
+        xmlUrl="https://www.ssi.gouv.fr/feed/"
+        htmlUrl="https://www.ssi.gouv.fr/" />
+    </outline>
+
+    <!-- ===================== -->
+    <!-- CVE & ALERTES MONDIALES -->
+    <!-- ===================== -->
+    <outline text="🚨 Sécurité - CVE & Alertes">
       <outline text="CVEfeed" type="rss"
         xmlUrl="https://cvefeed.io/rssfeed/"
         htmlUrl="https://cvefeed.io/" />
@@ -21,9 +36,60 @@
     </outline>
 
     <!-- ===================== -->
-    <!-- CYBERSÉCURITÉ NEWS -->
+    <!-- RED TEAM / EXPLOIT DEV -->
     <!-- ===================== -->
-    <outline text="Cybersécurité - Actualités">
+    <outline text="🔴 Red Team & Exploit Dev">
+      <outline text="Project Zero (Google)" type="rss"
+        xmlUrl="https://googleprojectzero.blogspot.com/feeds/posts/default"
+        htmlUrl="https://googleprojectzero.blogspot.com/" />
+      <outline text="Offensive Security Blog" type="rss"
+        xmlUrl="https://www.offensive-security.com/feed/"
+        htmlUrl="https://www.offensive-security.com/" />
+      <outline text="PortSwigger Research" type="rss"
+        xmlUrl="https://portswigger.net/research/rss"
+        htmlUrl="https://portswigger.net/research" />
+      <outline text="Zero Day Initiative" type="rss"
+        xmlUrl="https://www.zerodayinitiative.com/rss/"
+        htmlUrl="https://www.zerodayinitiative.com/" />
+    </outline>
+
+    <!-- ===================== -->
+    <!-- MALWARE / REVERSING -->
+    <!-- ===================== -->
+    <outline text="🧬 Malware & Reversing">
+      <outline text="Malwarebytes Labs" type="rss"
+        xmlUrl="https://blog.malwarebytes.com/feed/"
+        htmlUrl="https://blog.malwarebytes.com/" />
+      <outline text="Securelist (Kaspersky)" type="rss"
+        xmlUrl="https://securelist.com/feed/"
+        htmlUrl="https://securelist.com/" />
+      <outline text="Talos Intelligence" type="rss"
+        xmlUrl="https://blog.talosintelligence.com/rss/"
+        htmlUrl="https://talosintelligence.com/" />
+      <outline text="The DFIR Report" type="rss"
+        xmlUrl="https://thedfirreport.com/feed/"
+        htmlUrl="https://thedfirreport.com/" />
+    </outline>
+
+    <!-- ===================== -->
+    <!-- DFIR / BLUE TEAM -->
+    <!-- ===================== -->
+    <outline text="🔵 Blue Team & DFIR">
+      <outline text="AboutDFIR" type="rss"
+        xmlUrl="https://aboutdfir.com/feed"
+        htmlUrl="https://aboutdfir.com/" />
+      <outline text="Mandiant Blog" type="rss"
+        xmlUrl="https://www.mandiant.com/resources/blog/rss.xml"
+        htmlUrl="https://www.mandiant.com/" />
+      <outline text="Microsoft Security Blog" type="rss"
+        xmlUrl="https://www.microsoft.com/security/blog/feed/"
+        htmlUrl="https://www.microsoft.com/security/blog/" />
+    </outline>
+
+    <!-- ===================== -->
+    <!-- ACTUS CYBER INTERNATIONALES -->
+    <!-- ===================== -->
+    <outline text="🌍 Actualités Cybersécurité">
       <outline text="The Hacker News" type="rss"
         xmlUrl="https://thehackernews.com/rss"
         htmlUrl="https://thehackernews.com/" />
@@ -33,30 +99,27 @@
       <outline text="404 Media" type="rss"
         xmlUrl="https://www.404media.co/rss"
         htmlUrl="https://www.404media.co/" />
-      <outline text="Google Online Security Blog" type="rss"
-        xmlUrl="https://security.googleblog.com/feeds/posts/default?alt=rss"
-        htmlUrl="https://security.googleblog.com/" />
     </outline>
 
     <!-- ===================== -->
-    <!-- DFIR & RECHERCHE -->
+    <!-- TECH & CYBER FR -->
     <!-- ===================== -->
-    <outline text="Cybersécurité - DFIR & Recherche">
-      <outline text="AboutDFIR" type="rss"
-        xmlUrl="https://aboutdfir.com/feed"
-        htmlUrl="https://aboutdfir.com/" />
-    </outline>
-
-    <!-- ===================== -->
-    <!-- TECH & IT -->
-    <!-- ===================== -->
-    <outline text="Tech & IT Général">
+    <outline text="🇫🇷 Tech & Cyber FR">
+      <outline text="IT-Connect" type="rss"
+        xmlUrl="https://www.it-connect.fr/feed/"
+        htmlUrl="https://www.it-connect.fr/" />
+      <outline text="Korben" type="rss"
+        xmlUrl="https://korben.info/feed"
+        htmlUrl="https://korben.info/" />
+      <outline text="Next.ink" type="rss"
+        xmlUrl="https://next.ink/feed/"
+        htmlUrl="https://next.ink/" />
       <outline text="Le Monde Informatique" type="rss"
         xmlUrl="https://www.lemondeinformatique.fr/rss/rss.xml"
         htmlUrl="https://www.lemondeinformatique.fr/" />
-      <outline text="01net - Actus" type="rss"
-        xmlUrl="https://www.01net.com/rss/"
-        htmlUrl="https://www.01net.com/" />
+      <outline text="ZDNet France" type="rss"
+        xmlUrl="https://www.zdnet.fr/feeds/rss/actualites/"
+        htmlUrl="https://www.zdnet.fr/" />
     </outline>
 
   </body>
