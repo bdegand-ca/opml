@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>Veille Cybersécurité & Tech</title>
+  </head>
+  <body>
+
+    <!-- ===================== -->
+    <!-- CYBERSÉCURITÉ ALERTES -->
+    <!-- ===================== -->
+    <outline text="Cybersécurité - Alertes & CVE">
+      <outline text="CVEfeed" type="rss"
+        xmlUrl="https://cvefeed.io/rssfeed/"
+        htmlUrl="https://cvefeed.io/" />
+      <outline text="CISA Alerts" type="rss"
+        xmlUrl="https://www.cisa.gov/uscert/ncas/alerts.xml"
+        htmlUrl="https://www.cisa.gov/" />
+      <outline text="Cisco Security Advisories" type="rss"
+        xmlUrl="https://tools.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisories.xml"
+        htmlUrl="https://www.cisco.com/" />
+    </outline>
+
+    <!-- ===================== -->
+    <!-- CYBERSÉCURITÉ NEWS -->
+    <!-- ===================== -->
+    <outline text="Cybersécurité - Actualités">
+      <outline text="The Hacker News" type="rss"
+        xmlUrl="https://thehackernews.com/rss"
+        htmlUrl="https://thehackernews.com/" />
+      <outline text="BleepingComputer" type="rss"
+        xmlUrl="https://www.bleepingcomputer.com/feed/"
+        htmlUrl="https://www.bleepingcomputer.com/" />
+      <outline text="404 Media" type="rss"
+        xmlUrl="https://www.404media.co/rss"
+        htmlUrl="https://www.404media.co/" />
+      <outline text="Google Online Security Blog" type="rss"
+        xmlUrl="https://security.googleblog.com/feeds/posts/default?alt=rss"
+        htmlUrl="https://security.googleblog.com/" />
+    </outline>
+
+    <!-- ===================== -->
+    <!-- DFIR & RECHERCHE -->
+    <!-- ===================== -->
+    <outline text="Cybersécurité - DFIR & Recherche">
+      <outline text="AboutDFIR" type="rss"
+        xmlUrl="https://aboutdfir.com/feed"
+        htmlUrl="https://aboutdfir.com/" />
+    </outline>
+
+    <!-- ===================== -->
+    <!-- TECH & IT -->
+    <!-- ===================== -->
+    <outline text="Tech & IT Général">
+      <outline text="Le Monde Informatique" type="rss"
+        xmlUrl="https://www.lemondeinformatique.fr/rss/rss.xml"
+        htmlUrl="https://www.lemondeinformatique.fr/" />
+      <outline text="01net - Actus" type="rss"
+        xmlUrl="https://www.01net.com/rss/"
+        htmlUrl="https://www.01net.com/" />
+    </outline>
+
+  </body>
+</opml>
